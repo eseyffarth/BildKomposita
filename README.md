@@ -1,5 +1,5 @@
 # BildKomposita
-Twitterbot that generates random compound words that look like BILD headlines. See [https://twitter.com/BILD_Komposita] (@BILD_Komposita) for sample output.
+Twitterbot that generates random compound words that look like BILD headlines. See [@BILD_Komposita] (https://twitter.com/BILD_Komposita) for sample output.
 
 ## How it works
 The data collector collects recently published RSS items from BILD and extracts all compounds that have the pattern "Wort1-Wort2" from the item descriptions. The elements of the compounds are stored in a file on the server. When the tweeting module is executed, it loads the files and generates a random compound from the data found there.
